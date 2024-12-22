@@ -71,3 +71,9 @@ That project is a final project of the Web Aplication Development Tools course o
 
 
 ## instalation
+It's reuired to use terminal commnads to install all required node modules.
+Firstly, it's required to call the commnad "composer install". It's required to have the [composer](https://getcomposer.org/) installed.
+It's recommended to call the command "npm install" to update node_modules of [Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+After node_modules installation, it's required to call the "php artisan migrate". That command will generate the database structure. 
+Be ware, it's required to configure connection to database in the .env. To start that project it's required to use localhost providers like [xampp](https://www.apachefriends.org/)
+To start the WebSocket, it's required to start npm dev by command "npm run dev" and run reverb server "php artisan reverb:start".
